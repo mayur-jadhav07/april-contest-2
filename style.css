@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  color: #000000;
+  background-color: #FCAF02;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.nav-links li {
+  margin: 0 30px;
+}
+
+#intro{
+    color: white;
+    background-color: #000000;
+}
+.row{
+    display: flex;
+    padding: 50px 20px;
+}
+
+.row h1{
+    font-size: 64px;
+}
+
+.content p{
+    padding: 50px 0px;
+    font-weight: 400;
+}
+
+.btn{
+    padding: 10px 60px;
+    font-weight: 700;
+    font-size: 32px;
+    background-color: #FCAF02;
+    color: #000000;
+    border-radius: 500px;
+}
+
+#contact{
+    background-color: #000000;
+    color: #FCAF02;
+}
+
+.sub-heading{
+    padding: 40px 20px;
+    font-size: 64px;
+}
+
+input{
+    width: 95%;
+    padding: 12px;
+    border: 2px solid #FCAF02;
+    background-color: #000000;
+    color: #FCAF02;
+    border-radius: 100px;
+    box-sizing: border-box;
+    margin: 6px 20px 16px;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+::placeholder{
+    color: #FCAF02;
+    padding-left: 25px;
+}
+
+.submit-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.input-wrapper {
+    display: inline-block;
+    width: calc(50% - 10px); /* Adjust width as needed */
+    margin-right: 10px; /* Adjust margin between input fields */
+}
+
+
+.input-wrapper:last-child {
+    margin-right: 0; /* Remove margin for the last input wrapper */
+}
+
+#table{
+    background-color: #000000;
+    color: #FCAF02;   
+    padding: 60px 30px;
+}
+
+table, th {  
+    border: 2px solid #FCAF02;
+    text-align: left;
+  }
+
+  table td {
+    border-left: 2px solid #FCAF02;
+    border-right: 2px solid #FCAF02;
+}
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 20px;
+  }
+
+.footer{
+background-color: #FCAF02;
+color: #000000;
+}
+
+.footer-border{
+   
+    border-right: 2px solid #000000;
+}
+
